@@ -3,3 +3,61 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    color:black;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: gray;
+}
+
+.inputEl{
+    grid-column: span 4;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.total{
+    grid-row: span 3;
+    background-color: green;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 5px black;
+    padding: 10px;
+    font-size: 30px;
+}
+
+button:hover{
+    background-color: #9c7f7f;
+}
+
+.clear{
+    background-color: red;
+}
+
+.oparetor{
+    background-color: #1414e4;;
+}
