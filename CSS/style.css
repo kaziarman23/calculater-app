@@ -16,15 +16,18 @@ h1{
 }
 
 .conteiner{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 15px;
     width: 400px;
     height: auto;
     margin: 0 auto;
     border: 1px solid black;
     padding: 10px;
     background-color: gray;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
 }
 
 .inputEl{
